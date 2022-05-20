@@ -18,7 +18,7 @@ body {
     background-color: #FFF;
     box-shadow: 0 0 1em #000;
     width: 80%;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -33,7 +33,7 @@ body {
 .navbar {
     background-color: rgb(48, 173, 169);    
     padding: 0 13%;
-    height: 80px;
+    
 }
 
 .navbar a {
@@ -45,6 +45,14 @@ body {
     color: rgb(75, 245, 208);
 }
 
+.navbar-toggler {    
+    border: none;    
+}
+
+.navbar-toggler span i {
+    color: #FFF;
+}
+
 /* about */
 .title {
     font-weight: 600;
@@ -54,20 +62,29 @@ body {
     color: rgb(48, 173, 169);
 }
 
+#about-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 30px;
+}
 
 #about-area {
-    padding: 70px 10px 70px 10px;
+    padding: 70px 150px;
+}
+
+#about-area p {
+    text-align: justify;
 }
 
 /* serviços */
 
 #services-area {
-    padding: 70px 10px 70px 10px;
+    padding: 70px 150px;
     background-color: #f7f7f7;
 }
 
 .service-img {
-    padding: 40px;
+    padding: 0px 40px 60px 0;
 }
 
 .list-box {
@@ -93,13 +110,11 @@ body {
 /* footer */
 
 #contact-area {
-    padding: 70px 10px 70px 10px;
+    padding: 70px 150px;
 }
 
-.form-input {
-    border: 1px solid #d1d1d1;
+.form-control {
     padding: 13px;
-    width: 85%;
     margin-bottom: 10px;
     border-radius: 0px;
 }
@@ -119,15 +134,18 @@ body {
     color: rgb(48, 173, 169);
 }
 
-.contact-icon {
-    color: rgb(48, 173, 169);
-    font-size: 24px;
-    padding: 20px;
-}
+
 
 .contact-info {
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.contact-info i {
+    color: rgb(48, 173, 169);
+    font-size: 24px;
+    padding: 10px 0;
+    width: 40px;
 }
 
 #copy-area {
@@ -145,5 +163,120 @@ body {
 
 #copy-area a:hover{
     color: rgb(48, 173, 169);
+}
+
+/* Responsivo */
+
+@media (max-width: 1024px) {
+
+    /* about */
+    #about-area {
+        padding: 70px 50px;
+    }
+
+    #about-area p {
+        font-size: 0.8rem;
+    }
+
+    #about-area img {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #about-text {
+        line-height: 25px;
+    }
+
+    /* services */
+    #services-area {
+        padding: 70px 50px;
+    }
+
+    .list-box {
+        padding: 0;
+    }
+
+    .list-box ul {
+        padding: 0;
+    }
+
+    .list-box ul li {
+        font-size: 0.8rem;
+    }
+
+    /* contact */
+
+    #contact-area {
+        padding: 70px 50px;
+    }
+
+    #contact-area p {
+        font-size: 0.8rem;
+    }
+
+    .contact-info {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /* main */
+    #main-container{
+        width: 100%;
+    }
+
+    /* about */
+    #about-area img {
+        margin-top: 70px;
+    }
+
+    /* services */
+
+    .list-box ul li {
+        font-size: 0.75rem;
+    }
+
+    /* contact */
+
+    .contact-info i {
+        width: 30px;
+        font-size: 1.0rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    /* navbar */
+    .navbar {
+        padding: 0 5%;
+    }
+
+    /* about */
+    #about-area img {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .title {
+        font-size: 1.7rem;
+    }
+
+    /* services */
+
+    .service-img {
+        padding: 0;
+        margin: 20px 0 50px 0;
+    }
+
+    /* contact */
+    #contact-area form {
+        margin-top: 25px;
+    }
+
+    #copy-area p {
+        font-size: 0.9rem;
+    }
+
 }
 
