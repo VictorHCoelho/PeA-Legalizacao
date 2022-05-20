@@ -1,0 +1,146 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#main-container {
+    background-color: #FFF;
+    box-shadow: 3px;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;    
+}
+
+#logo-pea {
+    width: 200px;
+    margin: 20px 20px 20px 70px;
+}
+
+/* navbar */
+.navbar {
+    background-color: rgb(48, 173, 169);    
+}
+
+.navbar a {
+    color: #FFF;
+    transition: .3s;
+}
+
+.navbar-nav a:hover {
+    color: rgb(75, 245, 208);
+}
+
+/* about */
+.title {
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+
+#about-area {
+    padding: 70px 10px 70px 10px;
+}
+
+/* serviços */
+
+#services-area {
+    padding: 70px 10px 70px 10px;
+    background-color: #f7f7f7;
+}
+
+.service-img {
+    padding: 40px;
+}
+
+.list-box {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.list-box ul {
+    list-style: none;
+}
+
+.list-box ul li {
+    line-height: 30px;
+}
+
+.list-box ul li i {
+    color: rgb(48, 173, 169);
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* footer */
+
+#contact-area {
+    padding: 70px 10px 70px 10px;
+}
+
+.form-input {
+    border: 1px solid #d1d1d1;
+    padding: 13px;
+    width: 85%;
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+
+#btn-enviar {
+    background-color: rgb(48, 173, 169);
+    color: #FFF;
+    font-weight: bold;
+    padding: 15px 50px;
+    border: 2px solid transparent;  
+    transition: .3s;  
+}
+
+#btn-enviar:hover {
+    background-color: transparent;
+    border: 2px solid rgb(48, 173, 169);
+    color: rgb(48, 173, 169);
+}
+
+.contact-icon {
+    color: rgb(48, 173, 169);
+    font-size: 24px;
+    padding: 20px;
+}
+
+.contact-info {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#copy-area {
+    background-color: #f7f7f7;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+#copy-area a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#copy-area a:hover{
+    color: rgb(48, 173, 169);
+}
+
