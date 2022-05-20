@@ -16,23 +16,24 @@ body {
 
 #main-container {
     background-color: #FFF;
-    box-shadow: 3px;
+    box-shadow: 0 0 1em #000;
     width: 80%;
-    margin-top: 15px;
+    margin-top: 80px;
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;    
+       
 }
 
 #logo-pea {
-    width: 200px;
-    margin: 20px 20px 20px 70px;
+    width: 170px;
 }
 
 /* navbar */
 .navbar {
     background-color: rgb(48, 173, 169);    
+    padding: 0 13%;
+    height: 80px;
 }
 
 .navbar a {
@@ -50,6 +51,7 @@ body {
     font-size: 34px;
     text-align: center;
     margin: 0 0 50px 0;
+    color: rgb(48, 173, 169);
 }
 
 
@@ -71,6 +73,7 @@ body {
 .list-box {
     margin-top: auto;
     margin-bottom: auto;
+    font-size: 0.9rem;
 }
 
 .list-box ul {
