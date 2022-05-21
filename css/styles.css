@@ -223,6 +223,8 @@ body {
     /* main */
     #main-container{
         width: 100%;
+        margin-bottom: 0;
+        box-shadow: none;
     }
 
     /* about */
