@@ -165,9 +165,68 @@ body {
     color: rgb(48, 173, 169);
 }
 
+/* Email Success */
+
+#main-container-success {
+    position: absolute;
+    background-color: #FFF;
+    box-shadow: 0 0 1em #000;
+    width: 80%;
+    height: 92%;
+    margin-top: 70px;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;    
+    padding: 50px;
+    
+}
+
+#main-container-success p {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+#msg-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column; 
+    padding: 40px;
+    height: 700px;
+    width: 500px;
+    margin: auto;
+}
+
+#msg-email i {
+    color: green;
+    font-size: 150px;
+    margin-bottom: 50px;    
+}
+
+#btn-voltar {
+    text-decoration: none;
+    background-color: rgb(48, 173, 169);
+    padding: 15px 40px;
+    color: #FFF;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: .3s;
+}
+
+#btn-voltar:hover {
+    background-color: transparent;
+    color: rgb(48, 173, 169);
+    border: 2px solid rgb(48, 173, 169);
+}
+
+
 /* Responsivo */
 
 @media (max-width: 1024px) {
+
+    body {
+        background-size: auto;
+    }
 
     /* about */
     #about-area {
@@ -217,6 +276,15 @@ body {
     .contact-info {
         padding: 0;
     }
+
+    /* Email Success */
+    #msg-email {
+        width: 100%;
+        height: 100%;
+    }
+    #main-container-success {
+        height: 90.8%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -225,6 +293,12 @@ body {
         width: 100%;
         margin-bottom: 0;
         box-shadow: none;
+    }
+
+    #main-container-success {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
     }
 
     /* about */
@@ -280,38 +354,15 @@ body {
         font-size: 0.9rem;
     }
 
+    /* Email success */
+    #msg-email p{
+        font-size: 1.2rem;
+    }
+
+    #msg-email i {
+        font-size: 8rem;
+    }
 }
 
-/* Email Success */
 
-#main-container-success {
-    background-color: #FFF;
-    box-shadow: 0 0 1em #000;
-    width: 80%;
-    margin-top: 70px;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;    
-    padding: 50px;
-}
 
-#main-container-success p {
-    font-size: 26px;
-    margin-bottom: 100px;
-}
-
-#btn-voltar {
-    text-decoration: none;
-    background-color: rgb(48, 173, 169);
-    padding: 15px 40px;
-    color: #FFF;
-    font-weight: bold;
-    border: 2px solid transparent;
-    transition: .3s;
-}
-
-#btn-voltar:hover {
-    background-color: transparent;
-    color: rgb(48, 173, 169);
-    border: 2px solid rgb(48, 173, 169);
-}
