@@ -6,8 +6,8 @@
 body {
     background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center;
+    background-size: cover;
+
 }
 
 .container-fluid {
@@ -282,3 +282,36 @@ body {
 
 }
 
+/* Email Success */
+
+#main-container-success {
+    background-color: #FFF;
+    box-shadow: 0 0 1em #000;
+    width: 80%;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;    
+    padding: 50px;
+}
+
+#main-container-success p {
+    font-size: 26px;
+    margin-bottom: 100px;
+}
+
+#btn-voltar {
+    text-decoration: none;
+    background-color: rgb(48, 173, 169);
+    padding: 15px 40px;
+    color: #FFF;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: .3s;
+}
+
+#btn-voltar:hover {
+    background-color: transparent;
+    color: rgb(48, 173, 169);
+    border: 2px solid rgb(48, 173, 169);
+}
