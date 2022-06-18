@@ -55,6 +55,29 @@ body {
     color: #FFF;
 }
 
+/* slider */
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.carousel-item h5{
+    font-size: 32px;
+}
+
+.carousel-item p {
+    font-size: 20px;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(48, 173, 169);
+}
+
 /* about */
 .title {
     font-weight: 600;
