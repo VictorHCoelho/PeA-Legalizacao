@@ -38,9 +38,13 @@ body {
     
 }
 
-.navbar a {
+.navbar-nav a {
     color: #FFF;
     transition: .3s;
+}
+
+.navbar-nav a:visited {
+    color: #FFF;
 }
 
 .navbar-nav a:hover {
@@ -351,6 +355,15 @@ body {
     /* navbar */
     .navbar {
         padding: 0 5%;
+    }
+
+    /* slider */
+    .carousel-item p {
+        display: none;
+    }
+
+    .carousel-item h5 {
+        font-size: 25px;
     }
 
     /* about */
